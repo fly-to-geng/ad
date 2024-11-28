@@ -39,6 +39,12 @@
 
 #### BLIP
 
+研究机构： Salesforce Research
+
+github: https://github.com/salesforce/LAVIS/tree/main
+
+##### (2022.01.28) BLIP
+
 与CLIP类似，从互联网规模的图文对训练一个大的模型，实现图像任务，不同的是更复杂，有三个优化任务
 第一个优化目标：给出图像和若个描述文本，选择一个相似的
 第二个优化目标：给出图像和一个描述文本，二分类是否匹配
@@ -48,15 +54,59 @@
 
 所以BLIP比CLIP多一个能力，就是根据给出的图像生成文本描述
 
-#### BLIP2
+##### (2023.01.30) BLIP2
 
 冻结大语言模型和视觉模型参数，中间加入Q-transformer, 桥接视觉特征到语言模型特征空间，实验多模态大模型
 
+##### (2023.05.11) InstructBLIP
+
+InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
+
+##### (2023.05.24) BLIP-Diffusion
+
+BLIP-Diffusion: Pre-trained Subject Representation for Controllable Text-to-Image Generation and Editing
+
+文本生成图像领域的相关工作，可以根据输入的文本生成图像
+
+##### (2024.09.09) X-InstructBLIP
+
+X-InstructBLIP: A Framework for Aligning Image, 3D, Audio, Video to LLMs and its Emergent Cross-modal Reasoning
+
+类似 GPT4o 的 多模态大模型， 可以处理多个模态，不只是图像和文本
+
 #### LLaVA
+
+背景：刘浩天（Liu Haotian）是一位在人工智能和自然语言处理领域有显著贡献的研究者。他目前是斯坦福大学的博士生，专注于多模态学习、视觉-语言预训练模型以及大规模语言模型的研究。他在多个顶级学术会议和期刊上发表了多篇论文，并且参与了多个知名开源项目的开发。
+
+github: https://github.com/haotian-liu/LLaVA
+
+##### (2023.04.17) LLaVa
 
 使用大语言模型生成图片-文本指令微调数据，训练多模态大模型，最终结果是可以输入语言+图片，模型给出问题的回答
 
-### MiniGPT-4
+##### (2023.06.01) LLaVA-Med
+
+LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day
+
+生物医学方面的大模型问答
+
+##### (2023.09.26 )LLaVA-RLHF
+
+LLaVA-RLHF: Aligning Large Multimodal Models with Factually Augmented RLHF
+
+使用人类反馈强化学习之后强化的 LLaVa 模型
+
+##### (2023.10.15) LLaVA-1.5
+
+##### (2023.11.10) LLaVA-Plus
+
+##### (2024.05.10) LLaVA-NeXT
+
+https://llava-vl.github.io/blog/2024-05-10-llava-next-stronger-llms/
+
+LLaVA-OneVision: Easy Visual Task Transfer
+
+#### MiniGPT-4
 
 实现的也是图像问答，不包含视频，方法类似，使用的是QFormer
 
