@@ -108,8 +108,48 @@ LLaVA-OneVision: Easy Visual Task Transfer
 
 #### MiniGPT-4
 
+背景：Vision CAIR Research Group 是 KAUST 的一个重要研究小组，专注于计算机视觉、自然语言处理、多模态学习和机器人技术的研究。
+
+沙特阿拉伯阿卜杜拉国王科技大学（King Abdullah University of Science and Technology, KAUST）
+
+##### (2023.04.20) MiniGPT-4
+
 实现的也是图像问答，不包含视频，方法类似，使用的是QFormer
+
+##### (2023.10.14) MiniGPT-v2
+
+MiniGPT-v2: Large Language Model as a Unified Interface for Vision-Language Multi-task Learning
+
+##### MiniGPT4-Video
+
+MiniGPT4-Video: Advancing Multimodal LLMs for Video Understanding with Interleaved Visual-Textual Tokens
+
+Goldfish: Vision-Language Understanding of Arbitrarily Long Videos
 
 #### Valley
 
 能力是可以进行视频问答，在处理图像的基础上增加了处理视频的能力
+
+## 世界模型
+
+- (2024.10.28) Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability
+- Emu3: Next-Token Prediction is All You Need
+- Segment Anything
+- SAM 2: Segment Anything in Images and Videos
+- Self-Supervised Vision Transformers with DINO
+- DINOv2: Learning Robust Visual Features without Supervision
+
+## 模型微调
+
+降低模型微调过程中灾难性遗忘的方法
+
+- 微调过程中加入通用的指令数据(主流方法)
+- Lora
+- (2024.01.04) LLaMA Pro: Progressive LLaMA with Block Expansion
+- (2024.02.21) Self-Distillation Bridges Distribution Gap in Language Model Fine-Tuning
+
+## 序列学习
+
+- (2023.10.30) STR: Large Trajectory Models are Scalable Motion Predictors and Planners
+- (2023.12.01) LVM: Sequential Modeling Enables Scalable Learning for Large Vision Models
+- (2024.09.27) Emu3: Next-Token Prediction is All You Need
